@@ -1,0 +1,12 @@
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: allinfluencer-frontend
+    restart: unless-stopped
+    env_file:
+      - ./env.local
+    ports:
+      - "3000:3000"
+
