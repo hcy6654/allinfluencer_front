@@ -10,7 +10,7 @@ import { Chrome, MessageCircle, User, Mail, UserPlus } from 'lucide-react';
  */
 export default function LoginPage() {
   const [isLoading, setIsLoading] = useState<string | null>(null);
-  const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3001';
+  const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8080';
 
   const handleSocialLogin = (provider: string) => {
     setIsLoading(provider);

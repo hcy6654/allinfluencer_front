@@ -61,7 +61,8 @@ export default function AuthSuccessPage() {
 
   const fetchUserInfo = async () => {
     try {
-      const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/v1/auth/me`, {
+      const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8080';
+      const response = await fetch(`${API_URL}/api/v1/auth/me`, {
         credentials: 'include', // 쿠키 포함
       });
 

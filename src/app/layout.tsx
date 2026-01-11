@@ -71,7 +71,7 @@ export default function RootLayout({
                       </Link>
                     </li>
                     <li>
-                      <a href="http://localhost:3001/api/docs" target="_blank" rel="noopener noreferrer" className="text-sm text-gray-600 hover:text-gray-900">
+                      <a href="http://localhost:8080/api/docs" target="_blank" rel="noopener noreferrer" className="text-sm text-gray-600 hover:text-gray-900">
                         API 문서
                       </a>
                     </li>
@@ -86,7 +86,7 @@ export default function RootLayout({
                       </a>
                     </li>
                     <li>
-                      <a href="http://localhost:3001/api-json" target="_blank" rel="noopener noreferrer" className="text-sm text-gray-600 hover:text-gray-900">
+                      <a href="http://localhost:8080/api-json" target="_blank" rel="noopener noreferrer" className="text-sm text-gray-600 hover:text-gray-900">
                         OpenAPI JSON
                       </a>
                     </li>

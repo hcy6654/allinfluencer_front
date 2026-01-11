@@ -14,7 +14,7 @@ export default function LocalLoginPage() {
   const [error, setError] = useState('');
   const router = useRouter();
 
-  const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3001';
+  const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8080';
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
