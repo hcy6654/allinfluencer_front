@@ -36,6 +36,21 @@ npm run dev
 - 접속: `http://localhost:3000`
 - API 프록시: 프론트에서 `/api/...` 호출 시 `next.config.js`의 rewrites가 `API_URL`로 프록시합니다.
 
+## `npm start`로 실행(권장: 프로덕션 모드)
+
+Next.js는 `npm start`가 **프로덕션 서버 실행**이므로, 먼저 빌드가 필요합니다.
+
+```bash
+npm run build
+npm start
+```
+
+- 접속: `http://localhost:3000`
+
+## Next.js 실행 명령어(직접 실행)
+- 개발: `next dev -p 3000`
+- 프로덕션: `next start -p 3000` (선행: `next build`)
+
 ## 빌드/배포용 실행
 
 ### 1) 프로덕션 빌드
