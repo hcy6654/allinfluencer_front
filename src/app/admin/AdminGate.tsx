@@ -3,8 +3,8 @@
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 
-import type { AuthUser } from '@/types/api';
-import { fetchCurrentUser } from '@/services/auth';
+import type { AuthUser } from '@/shared/types/api';
+import { fetchCurrentUser } from '@/features/auth/api/authService';
 
 export default function AdminGate({ children }: { children: React.ReactNode }) {
   const [loading, setLoading] = useState(true);
