@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { PlusCircle } from 'lucide-react';
-import AdvertiserMyTopNav from '@/components/my/AdvertiserMyTopNav';
+import AdvertiserMyTopNav from '@/widgets/advertiser-nav/ui/AdvertiserMyTopNav';
 
 export default function AdvertiserMyLayout({
   children,

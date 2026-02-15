@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import Link from 'next/link';
 import './globals.css';
-import AuthButton from '@/components/AuthButton';
+import AuthButton from '@/features/auth/ui/AuthButton';
 
 const inter = Inter({ subsets: ['latin'] });
 
