@@ -1,5 +1,5 @@
-import AdminInfluencerApprovals from './sections/AdminInfluencerApprovals';
-import AdminAdvertiserApprovals from './sections/AdminAdvertiserApprovals';
+import AdminInfluencerApprovals from '@/widgets/admin-approvals/ui/AdminInfluencerApprovals';
+import AdminAdvertiserApprovals from '@/widgets/admin-approvals/ui/AdminAdvertiserApprovals';
 
 export default function AdminApprovalsPage() {
   return (

@@ -4,9 +4,9 @@ import { useEffect, useMemo, useState } from 'react';
 import Link from 'next/link';
 import { Filter, Grid, List, Search, SlidersHorizontal } from 'lucide-react';
 
-import { useUsers } from '@/hooks/useUsers';
-import { EmptyState, UserListCard } from '@/components/users';
-import type { UserListItem } from '@/types/api';
+import { useUsersQuery as useUsers } from '@/entities/user/api/useUsersQuery';
+import { EmptyState, UserListCard } from '@/entities/user/ui';
+import type { UserListItem } from '@/shared/types/api';
 
 type StatusValue = 'ALL' | 'ACTIVE' | 'INACTIVE' | 'SUSPENDED';
 type SortValue = 'newest' | 'oldest' | 'name';

@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-import AuthButton from '@/components/AuthButton';
+import AuthButton from '@/features/auth/ui/AuthButton';
 import AdminGate from './AdminGate';
 
 export default function AdminLayout({ children }: { children: React.ReactNode }) {
