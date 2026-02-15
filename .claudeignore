@@ -1,0 +1,52 @@
+# dependencies
+node_modules/
+
+# Next.js / build outputs
+.next/
+out/
+dist/
+build/
+coverage/
+.turbo/
+.cache/
+
+# logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
+
+# env / secrets
+.env
+.env.*
+*.pem
+*.key
+
+# binaries / media (큰 파일)
+*.zip
+*.tar
+*.gz
+*.7z
+*.jar
+*.war
+*.exe
+*.dmg
+*.pkg
+*.mp4
+*.mov
+*.avi
+
+# images (필요하면 제거 가능)
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.ico
+*.pdf
